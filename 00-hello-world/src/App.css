@@ -1,0 +1,58 @@
+section .ss-twitter-followcard {
+    margin: 15px;
+}
+article.ss-twitter-followcard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article.ss-twitter-followcard header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+article.ss-twitter-followcard header img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+article.ss-twitter-followcard header div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+article.ss-twitter-followcard header div strong {
+    color: white;
+}
+
+article.ss-twitter-followcard header div span {
+    color: lightgray;
+}
+
+article.ss-twitter-followcard aside {
+    display: flex;
+    flex-direction: column;
+    min-width: 125px;
+}
+article.ss-twitter-followcard aside button {
+    border-radius: 20px;
+    background-color: white;
+    padding: 6px 12px;
+    margin: 0 10px;
+    color: #222;
+    border: 0;
+}
+
+article.ss-twitter-followcard aside button:hover {
+    cursor: pointer;
+    filter: invert(1);
+}
+
+article.ss-twitter-followcard aside button.ss-twitter-followcard-button {
+    filter: invert(1);
+}
