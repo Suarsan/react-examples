@@ -1,0 +1,11 @@
+
+#root .time {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    pointer-events: none;
+    top: 90%;
+    font-size: 30px;
+    color: white;
+    z-index: 1;
+  }
