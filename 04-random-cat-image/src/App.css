@@ -8,6 +8,15 @@ main {
 main h1 {
     text-align: center;
 }
+
 main p {
+    font-size: 20px;
+}
+
+main button {
+    margin: 25px;
+    width: fit-content;
+    margin: 25px auto;
+    padding: 12px 24px;
     font-size: 20px;
 }
